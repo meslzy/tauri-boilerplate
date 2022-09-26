@@ -1,0 +1,22 @@
+{
+  "name": "tauri-boilerplate",
+  "description": "tauri boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.1",
+    "@types/node": "^18.7.18"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "type": "module",
+  "private": true
+}
