@@ -1,0 +1,25 @@
+{
+  "name": "webview",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint source --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@mantine/core": "^6.0.17",
+    "@mantine/hooks": "^6.0.17",
+    "@tauri-apps/api": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite": "^4.4.8",
+    "vite-tsconfig-paths": "^4.2.0"
+  },
+  "private": true
+}

@@ -1,0 +1,27 @@
+{
+  "name": "tauri-boilerplate",
+  "description": "tauri boilerplate",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "dev": "roserepo run dev",
+    "build": "roserepo run build",
+    "lint": "roserepo run lint",
+    "upgrade": "roserepo upgrade"
+  },
+  "devDependencies": {
+    "roserepo": "1.0.10",
+    "@tauri-apps/cli": "1.4.0",
+    "typescript": "5.1.6",
+    "@meslzy/tsconfig": "0.2.2",
+    "eslint": "8.46.0",
+    "@meslzy/eslint-config": "^0.5.6",
+    "@types/node": "20.4.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true
+}
